@@ -1,5 +1,5 @@
-﻿using ConfigurationManager.Manager;
-using ConfigurationManager.Parsers;
+﻿using ConfigurationLibrary.Manager;
+using ConfigurationLibrary.Parsers;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Serilog;
@@ -74,8 +74,7 @@ namespace ConfigurationManager
                 {
                     Console.WriteLine(error);
                 } 
-            }
-               
+            }               
         }
 
         public Task StopAsync(CancellationToken cancellationToken)

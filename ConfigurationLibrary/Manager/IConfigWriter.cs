@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ConfigurationManager.Manager
+namespace ConfigurationLibrary.Manager
 {
     public interface IConfigWriter
     {

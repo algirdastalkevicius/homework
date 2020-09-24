@@ -14,6 +14,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ConfigurationLibrary\ConfigurationLibrary.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Update="Base_Config.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

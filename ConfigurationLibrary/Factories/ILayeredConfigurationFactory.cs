@@ -1,9 +1,7 @@
-﻿using ConfigurationManager.Models;
-using System;
+﻿using ConfigurationLibrary.Models;
 using System.Collections.Generic;
-using System.Text;
 
-namespace ConfigurationManager.Factories
+namespace ConfigurationLibrary.Factories
 {
     public interface ILayeredConfigurationFactory
     {

@@ -1,11 +1,11 @@
-﻿using ConfigurationManager.Factories;
-using ConfigurationManager.Models;
+﻿using ConfigurationLibrary.Factories;
+using ConfigurationLibrary.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace ConfigurationManager.Manager
+namespace ConfigurationLibrary.Manager
 {
     public class ConfigManager : IConfigReader, IConfigWriter
     {
@@ -95,7 +95,7 @@ namespace ConfigurationManager.Manager
         private string GetHighestLayerInformation(string key)
         {
             var result = "";
-            foreach (var configuration in _configurationLayers)
+            foreach (var configuration in _configurationLayers.OrderBy(x => x.Key))
             {
                 if (configuration.Value.TryGetConfiguration(key, out var res))
                     result = res;

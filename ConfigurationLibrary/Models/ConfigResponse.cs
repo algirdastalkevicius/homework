@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ConfigurationManager.Models
+namespace ConfigurationLibrary.Models
 {
     public class ConfigResponse<T>
     {

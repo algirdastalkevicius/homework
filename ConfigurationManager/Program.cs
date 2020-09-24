@@ -1,6 +1,7 @@
-﻿using ConfigurationManager.Factories;
-using ConfigurationManager.Manager;
-using ConfigurationManager.Parsers;
+﻿using ConfigurationLibrary;
+using ConfigurationLibrary.Factories;
+using ConfigurationLibrary.Manager;
+using ConfigurationLibrary.Parsers;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Serilog;

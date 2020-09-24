@@ -1,10 +1,8 @@
-﻿using System;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.Hosting;
+﻿using Microsoft.Extensions.Hosting;
 using Serilog;
 using Serilog.Events;
 
-namespace ConfigurationManager
+namespace ConfigurationLibrary
 {
     public static class LoggerSetup 
     {

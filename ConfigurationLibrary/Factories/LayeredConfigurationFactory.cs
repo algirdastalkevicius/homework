@@ -1,9 +1,9 @@
-﻿using ConfigurationManager.Models;
+﻿using ConfigurationLibrary.Models;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace ConfigurationManager.Factories
+namespace ConfigurationLibrary.Factories
 {
     public class LayeredConfigurationFactory : ILayeredConfigurationFactory
     {

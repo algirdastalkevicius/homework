@@ -1,9 +1,8 @@
-﻿using Microsoft.AspNetCore.SignalR;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace ConfigurationManager.Models
+namespace ConfigurationLibrary.Models
 {
     public class Configuration
     {

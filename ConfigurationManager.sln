@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30517.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigurationManager", "ConfigurationManager\ConfigurationManager.csproj", "{314F1E9D-4245-4BF3-BD1B-510F5D722032}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConfigurationManager", "ConfigurationManager\ConfigurationManager.csproj", "{314F1E9D-4245-4BF3-BD1B-510F5D722032}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigurationLibrary", "ConfigurationLibrary\ConfigurationLibrary.csproj", "{0430B123-C34B-4295-AE6F-86D88755730B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{314F1E9D-4245-4BF3-BD1B-510F5D722032}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{314F1E9D-4245-4BF3-BD1B-510F5D722032}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{314F1E9D-4245-4BF3-BD1B-510F5D722032}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0430B123-C34B-4295-AE6F-86D88755730B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0430B123-C34B-4295-AE6F-86D88755730B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0430B123-C34B-4295-AE6F-86D88755730B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0430B123-C34B-4295-AE6F-86D88755730B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

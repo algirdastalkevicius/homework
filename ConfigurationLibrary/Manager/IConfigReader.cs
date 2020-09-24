@@ -1,10 +1,10 @@
-﻿using ConfigurationManager.Models;
+﻿using ConfigurationLibrary.Models;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConfigurationManager.Manager
+namespace ConfigurationLibrary.Manager
 {
     public interface IConfigReader
     {

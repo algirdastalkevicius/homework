@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ConfigurationManager.Helpers
+namespace ConfigurationLibrary.Helpers
 {
     public static class StringExtensions
     {

@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
-using ConfigurationManager.Helpers;
+using ConfigurationLibrary.Helpers;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
-namespace ConfigurationManager.Parsers
+namespace ConfigurationLibrary.Parsers
 {
     public class SimpleConfigurationParser : IConfigurationParser
     {
@@ -28,8 +28,6 @@ namespace ConfigurationManager.Parsers
                 var match = regex.Match(line);
                 if(match.Success)
                 {
-                    var index = match.Value.IndexOf(':');
-
                     var key = match.Groups["key"].Value;
                     var value = match.Groups["value"].Value;
                     result.Add(key, value);
