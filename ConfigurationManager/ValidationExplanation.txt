@@ -1,0 +1,3 @@
+Validator class could be created that would follow validation policies. It could be injected and used after parsing configuration to check and inform about possible validation errors. If neccessary validation could be performed over different layers.
+
+Layer management can be extended to support layer removal if layer validation fails. 
