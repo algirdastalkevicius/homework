@@ -15,16 +15,15 @@ namespace ConfigurationLibrary.Models
 
         public bool TryGetConfiguration(string key, out string result)
         {
-            if(ConfigData.TryGetValue(key, out var res))
+            result = null;
+
+            if (ConfigData.TryGetValue(key, out var res))
             {
                 result = res;
                 return true;
             }
-            else
-            {
-                result = "Error";
-                return false;
-            }
+            
+            return false;
         }
 
     }

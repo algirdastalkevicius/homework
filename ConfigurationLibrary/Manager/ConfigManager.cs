@@ -10,7 +10,7 @@ namespace ConfigurationLibrary.Manager
     public class ConfigManager : IConfigReader, IConfigWriter
     {
         private readonly IDictionary<int, Configuration> _configurationLayers;
-
+        private const string Error = "Error";
         public ConfigManager(ILayeredConfigurationFactory factory)
         {
             _configurationLayers = factory.GetLayeredConfiguration();
@@ -100,7 +100,7 @@ namespace ConfigurationLibrary.Manager
                 if (configuration.Value.TryGetConfiguration(key, out var res))
                     result = res;
                 else if (string.IsNullOrEmpty(result))
-                    result = res;    
+                    result = Error;    
             }
 
             return result;
